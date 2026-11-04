@@ -11,7 +11,7 @@ conflicts=('checkra1n-gui')
 options=('!strip')
 arch=('x86_64')
 
-sha256sums_x86_64=('SKIP')
+sha256sums_x86_64=('dac9968939ea6e6bfbdedeb41d7e2579c4711dc2c5083f91dced66ca397dc51d')
 source_x86_64=("${pkgname}-${pkgver}-${pkgrel}-x86_64::https://assets.checkra.in/downloads/linux/cli/x86_64/${sha256sums_x86_64[0]}/checkra1n")
 
 package() {
